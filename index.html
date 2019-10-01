@@ -26,8 +26,10 @@
                     <table class="table">
                         <tr>
                             <th>Nombre</th>
+                            <th>Apellido</th>
                             <th>Promedio</th>
                             <th>detalle</th>
+                            
                         </tr>
                         <tr v-for="item in lista" v-bind:style="item.estado==true?'color:green':'color:red'">
                             <td v-text="item.nombre"></td>
